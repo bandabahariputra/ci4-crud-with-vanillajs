@@ -1,64 +1,119 @@
-# CodeIgniter 4 Application Starter
+<h1 align="center">Selamat datang di Learnify! 👋</h1>
 
-## What is CodeIgniter?
+![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
 
-This repository holds a composer-installable app starter.
-It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+[![](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square)
+![](https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=flat-square)](https://saythanks.io/to/zaidanline67%40gmail.com) [![HitCount](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify.svg)](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=flat-square)](https://code.visualstudio.com/) [![GitHub followers](https://img.shields.io/github/followers/syauqizaidan.svg?style=flat-square&label=Follow&maxAge=2592000)](https://github.com/Syauqizaidan?tab=followers)
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
+<p align="center">
+	
+<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/uses-html.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
 
-## Installation & updates
+</p>
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+### 🤔 Apa itu Learnify?
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### 🎉 Kenapa dibuat Open Source?
+Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
-## Setup
+### 🤨 Fitur apa saja yang tersedia di learnify?
+- Student Login System.
+- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya )
+- Disqus Comment Every Lesson make it more interactive !
+- Email Verification System.
+- Student Data Management.
+- Teacher Data Management.
+- Lesson Data Management.
+- Administrator Page for Data Management ( Students, Lesson and Teacher Data )
+- Student Page for learning.
+- Teacher Page for uploading a lesson.
+- Fancy Animations!
+- Well designed admin page customized stisla.
+- Tersedia lima mapel | Matematika, IPA, Bahasa Inggris, Bahasa Indonesia, Pendidikan agama islam .
+- Dan masih banyak lagi !
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
+**Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
-## Important Change with index.php
+### ✨ <a href="http://syauqi.js.org/">Demo</a>
+**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### 📆 <a href="http://syauqi.js.org/">Release Date</a>
+**Release date : 1 April 2020
+Version 1 Release : 17 April 2020**
+> Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+------------
 
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
 
-## Repository Management
+ ### 👤 Default Account for testing
+	
+**Admin Default Account**
+- Email : admin@gmail.com 
+- Password : admin
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+**Students Default Account**
+- Email : zaidanline67@gmail.com
+- Password : 123456
 
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
+**Teacher Default Account**
+- Email : zaidanline67@gmail.com
+- Password : 123456
 
-## Server Requirements
+------------
 
-PHP version 7.2 or higher is required, with the following extensions installed: 
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+### 🧐 Prasyarat yang diperlukan 
+- Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
+- Internet ( Karena saya memakai CDN Bootstrap )
+- XAMPP ( Atau apps web server lain )
+- Setting max_upload di php.ini
+- Setting post_max di php.ini
+- Web Browser
 
-Additionally, make sure that the following extensions are enabled in your PHP:
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+## 💻 Install
+- Download learnify atau fork lalu clone di computer kalian.
+- Upload database " Learnify.sql " ke dbms favourite kalian.
+- Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
+- Selamat Menikmati !
+
+## 🧑 Author
+
+👤 <a href="https://web.facebook.com/zaidan.syauqi.9"> **Syaauqi Zaaidan Khairan Khalaf**</a>
+- Twitter : <a href="https://twitter.com/syauqykhairan"> @syauqykhairan</a>
+- Facebook : <a href="https://web.facebook.com/zaidan.syauqi.9"> Syauqi Zaidan Khairan Khalaf</a>
+- Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
+- Dribbble : <a href="https://dribbble.com/syauqyzaidan">@syauqyzaidan </a>
+- Behance :  <a href="https://www.behance.net/syaauqizaaidan">@syaauqizaaidan </a>
+
+## 🤝 Contributing
+Contributions, issues and feature requests di persilahkan.
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
+
+## 💙 Thanks to
+- Allah SWT  😇
+- Family 🤗
+- Devover 🤩
+- Colorlib.com 😬
+- Nauval Azhar 🥰
+- Kalian yang support Learnify 😚
+
+
+## 📝 License
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- **Learnify is open-sourced software licensed under the MIT license.**
+
+## 🎥 Video Source
+**Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.**
+https://pastebin.pl/view/c3608c25
+
+------------
+
+- Terima kasih atas support nya semua!
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
+- Learnify is open-sourced software licensed under the MIT license.
