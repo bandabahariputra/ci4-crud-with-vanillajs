@@ -1,6 +1,6 @@
 <h1 align="center">Codeigniter 4 CRUD with Vanilla JS</h1>
 
-![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
+![screely-1593086053397](https://user-images.githubusercontent.com/44563107/85717905-31c03680-b718-11ea-998c-738b09da1993.png)
 
 <p align="center">
 	
