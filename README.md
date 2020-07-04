@@ -14,6 +14,7 @@
 ## 💻 Installation
 - `git clone https://github.com/bandabahariputra/ci4-crud-with-vanillajs.git`
 - `cd ci4-crud-with-vanillajs`
+- `composer install`
 - Create a database and inform `.env` file
 - `php spark migrate` to create tables
 - `php spark serve` to start the app
