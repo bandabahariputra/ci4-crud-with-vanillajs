@@ -1,20 +1,25 @@
-<h1 align="center">Codeigniter 4 CRUD with Vanilla JS</h1>
+####
+Aplikasi CRUD CodeIgniter 4 dan Vanilla JS
+####
 
-![screely-1593086053397](https://user-images.githubusercontent.com/44563107/85717905-31c03680-b718-11ea-998c-738b09da1993.png)
+Aplikasi CRUD sederhana menggunakan CodeIgniter 4 dan Vanilla JS.
 
-<p align="center">
-	
-<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="https://forthebadge.com/images/badges/uses-js.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
+****
+Development server
+****
 
-</p>
+1. Clone atau download project ini
 
-### ✨ Demo
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
+2. Buat database baru dengan nama sesuai dengan ada yang di file `.env`
 
-## 💻 Installation
-- `git clone https://github.com/bandabahariputra/ci4-crud-with-vanillajs.git`
-- `cd ci4-crud-with-vanillajs`
-- `composer install`
-- Create a database and inform `.env` file
-- `php spark migrate` to create tables
-- `php spark serve` to start the app
+3. Migrate database
+
+```
+php spark migrate
+```
+
+4. Jalankan local development
+
+```
+php spark serve
+```
