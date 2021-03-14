@@ -1,12 +1,8 @@
-####
-Aplikasi CRUD CodeIgniter 4 dan Vanilla JS
-####
+# Aplikasi CRUD CodeIgniter 4 dan Vanilla JS
 
 Aplikasi CRUD sederhana menggunakan CodeIgniter 4 dan Vanilla JS.
 
-****
-Development server
-****
+## Development server
 
 1. Clone atau download project ini
 
