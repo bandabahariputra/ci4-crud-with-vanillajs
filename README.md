@@ -6,7 +6,7 @@ Aplikasi CRUD sederhana menggunakan CodeIgniter 4 dan Vanilla JS.
 
 1. Clone atau download project ini
 
-2. Buat database baru dengan nama sesuai dengan ada yang di file `.env`
+2. Buat database baru dengan nama sesuai dengan yang ada di file `.env`
 
 3. Migrate database
 
